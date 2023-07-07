@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/estilo.css">
 </head>
 <body>
-    <form action="#">
+    <form class="centro" action="#">
         <input type="text" placeholder="Decime tu nombre">
         <br>
         <br>
@@ -22,12 +22,30 @@
 				<div>Gel soft <input type="radio" name="ladoE"></div>
 				<div>Acrilicas <input type="radio" name="ladoE"></div>
                 <div>Semi permanente <input type="radio" name=ladoE></div>
-				<input type="submit" value="ENVIAR"><input type="reset" value="RESETEAME">
+				<div>
+                    <button class="boton boton--enviar">Enviar</button>
+                    <button class="boton boton--cancelar">Cancelar</button>
+                </div>
 			</form>
 
-         <footer class="foot">
-                <a href="../index.html">Volver a la pagina principal</a>
-         </footer>
-    
+            <br>
+
+            <div class="footer container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                  <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                      <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                    </a>
+                    <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Evanails</span>
+                  </div>
+              
+                  <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                  </ul>
+                </footer>
+              </div>
+        
 </body>
 </html>

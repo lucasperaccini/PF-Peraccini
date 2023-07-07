@@ -3,7 +3,7 @@ body{
 	background-color: #F9F8F8;
 }
 p {
-	color: #07070A;
+	color: #CD8987;
 	font-family: 'Courier New', Courier, monospace;
 	font-weight: 250px;
 	text-decoration: none;
@@ -19,18 +19,15 @@ p {
 	list-style: none;
 	margin-inline-start: 20px;
 	margin-inline-end: 20px;
-	
 }
-.menu{
-	width: 100%;
-}
+
 .submenu {
 	float:none;
 
 }
 
-.foot {
-	background-color: #07070A;
+.footer {
+	background-color: #CD8987;
 	float: none;
 }
 .abc{
@@ -47,5 +44,38 @@ p {
 	margin-inline-end: 5px;
 
 }
+.titulo{
+	background-color: #8C2F39;
+}
 
+.logo{
+	width: 75px;
+	height: 75px;
+}
+
+.boton, .boton--enviar, .boton--cancelar {
+	width:200px;
+		height:50px;
+		background-color:white;
+		text-align:center;
+		color:red;
+		border-radius:20px;
+		border:1px solid black;
+	}
+	.boton--enviar{
+		background-color:green;
+		color:yellow;
+	}
+	
+	.boton--cancelar{
+		background-color:red;
+		color:yellow;
+	}
+	
+	.centro{
+		Display:flex;
+	flex-direction:row;
+	justify-content:center;
+	}
+	
 /*# sourceMappingURL=estilos.css.map */
