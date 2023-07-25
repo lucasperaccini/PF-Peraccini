@@ -3,7 +3,7 @@ body{
 	background-color: #F9F8F8;
 }
 p {
-	color: #CD8987;
+	color: #07070a;
 	font-family: 'Courier New', Courier, monospace;
 	font-weight: 250px;
 	text-decoration: none;
@@ -27,8 +27,9 @@ p {
 }
 
 .footer {
-	background-color: #CD8987;
+	background-color: #8c2f39;
 	float: none;
+	display: flex;
 }
 .abc{
 	float:left;
@@ -39,9 +40,24 @@ p {
 }
 
 .imagenes{
-	width: 250px;
+	width: 290px;
+	height: 400px;
 	margin-inline-start: 5px;
 	margin-inline-end: 5px;
+	margin: 0 10px;
+	justify-content: center;
+	padding: 10px;
+
+}
+
+.imagenes2{
+	width: 300px;
+	height: 400px;
+	margin-inline-start: 5px;
+	margin-inline-end: 5px;
+	margin: 0 10px;
+	justify-content: center;
+	padding: 10px;
 
 }
 .titulo{
@@ -78,4 +94,17 @@ p {
 	justify-content:center;
 	}
 	
+.contenedor {
+	display: flex;
+}
+
+.fondo {
+	margin: 0;
+	padding: 0;
+	background: url(/assets/img/fondo.jpg);   
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+
+}
 /*# sourceMappingURL=estilos.css.map */
